@@ -21,7 +21,7 @@ int main() {
 
 	if (x <= 7) {
 		if (x >= 2) {
-			float y = x * 3 + 14;
+			float y = x * x * x + 14;
 			printf("%f\n", y);
 		}
 		else if (x <= -3) {

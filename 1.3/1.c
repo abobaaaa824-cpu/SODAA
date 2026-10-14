@@ -41,11 +41,11 @@ int main() {
         c[i] = pow(-1, i) * b + z[i];
     }
 
-    for (int i = 0; i < n; i++) {
-        for (int i = 1; i < 5; ++i) {
-            if (c[i] > r) {
-                r = c[i];
-            }
+    r = c[0];
+
+    for (int i = 1; i < n; i++) {
+        if (c[i] > r) {
+            r = c[i];
         }
     }
 
